@@ -1,4 +1,4 @@
-# ⏰** Digital Clock UI
+```# ⏰** Digital Clock UI
 **
 A modern and visually appealing **Digital Clock UI** built using **HTML, CSS, and JavaScript**.  
 This project includes animated circular progress indicators for seconds and minutes along with a clean display of the current day and date.
