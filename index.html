@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="clock-container">
+
+    <div class="date-area">
+        <div class="day" id="day"></div>
+        <div class="full-date" id="full-date"></div>
+    </div>
+
+    <div class="circle-clock">
+
+      
+        <div class="ring minute-ring">
+            <div class="track"></div>
+            <div class="progress" id="min-progress"></div>
+        </div>
+
+        
+        <div class="ring second-ring">
+            <div class="track"></div>
+            <div class="progress" id="sec-progress"></div>
+        </div>
+
+        <div class="time">
+            <span id="hh">00</span>:
+            <span id="mm">00</span>:
+            <span id="ss">00</span>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

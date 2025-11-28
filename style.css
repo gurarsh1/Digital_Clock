@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b1b;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+.clock-container {
+    width: 600px;
+    height: 330px;
+    background: radial-gradient(circle at bottom, #01202c, #000);
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+
+
+.date-area {
+    width: 50%;
+}
+
+.day {
+    font-size: 22px;
+    opacity: 0.85;
+}
+
+.full-date {
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+
+.circle-clock {
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.ring {
+    position: absolute;
+    inset: 0;
+}
+
+.minute-ring { transform: scale(1); }
+.second-ring { transform: scale(0.75); }
+
+.track, .progress {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+}
+
+.track {
+    border: 6px solid rgba(255,255,255,0.15);
+}
+
+.progress {
+    border: 6px solid transparent;
+    border-top-color: #22cfff;
+    border-right-color: #22cfff;
+    transform: rotate(0deg);
+    transition: 0.2s linear;
+}
+
+
+.time {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
